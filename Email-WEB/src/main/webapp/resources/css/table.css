@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+table, th, td {
+	border: 1px solid #D4E0EE;
+	border-collapse: collapse;
+	color: #555;
+}
+
+th, td {
+	padding: 5px;
+}
+
+td a:link, a:visited {
+	color: #718ABE;
+	text-decoration: none;
+}
+
+td a:hover {
+	text-decoration: underline;
+}
+
+table th {
+	background-color: #E6EDF5;
+	color: #4F76A3;
+}
+
+.listodd tr:nth-child(odd) {
+	background-color: #F9F9FC;
+}
+
+button a:link, a:visited {
+	color: #718ABE;
+	text-decoration: none;
+}
+
+#saveId {
+	font-size: 0.8em;
+}
